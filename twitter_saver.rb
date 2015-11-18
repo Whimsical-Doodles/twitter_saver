@@ -2,8 +2,8 @@ require 'twitter'
 require 'open-uri'
 
 client = Twitter::REST::Client.new do |config|
-  config.consumer_key    = "gJjJCStfnaPmRX7wSe9G1S9Hb"
-  config.consumer_secret = "OhYBT0IHSlECmWjuWJKC8gf8G9N7cPytMRUnJpm1JOvEFSmM9V"
+  config.consumer_key    = ENV['TWITTER_KEY']
+  config.consumer_secret = ENV['TWITTER_SECRET']
 end
 
 client.search("#lovebaldock").each do |tweet|
