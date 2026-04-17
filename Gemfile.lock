@@ -7,7 +7,7 @@ GEM
     equalizer (0.0.9)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
-    http (0.6.3)
+    http (0.6.4)
       http_parser.rb (~> 0.6.0)
     http_parser.rb (0.6.0)
     http_parser.rb (0.6.0-java)
